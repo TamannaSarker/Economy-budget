@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Economy Budget</title>
+    <link rel="stylesheet" href="style.css">
+
+<script src="main.js" defer></script>
+
+
+</head>
+<body>
+
+     <div class="inkomst">
+         <h1>  Inkomst : </h1>
+          <span class="inkomstData"> <!--innerText--></span>
+
+           
+     </div>
+
+     <div class="kostnad">
+         <h1> Kostnad :</h1>
+         <span class="kostnadData"> <!--innerText--></span>
+
+     </div>
+
+
+    <div class="Vinst">
+        <h1>  Vinst/Forlust: </h1>
+
+        <span class="vinstData">  <!--innerText--></span>
+         
+    </div>
+
+
+
+<form >
+<div id="form-area">
+    
+    <select id="selectOption">
+        <option value="+"> + </option>
+        <option value="-"> - </option>
+    </select> <br>
+
+    <input type="text"  id="description"  required     placeholder="description "><br>
+    <input type="number"  id="value"      required     placeholder="value"> <br>
+
+    <button class="btn">Add</button>
+</div>
+</form>
+
+
+
+<div class="InkomstLista">
+    <h1>  InkomstLista : </h1>
+    <ul class="listaInkomst"></ul>
+      
+   </div>
+
+<div class="KostnadLista">
+    <h1>  KostnadLista : </h1>
+      
+    <ul class="listaKostnad"></ul>
+   
+
+
+</div>
+<div>
+<button class="rensa"> Clean </button>
+</div>
+
+
+
+
+
+</body>
+</html>
